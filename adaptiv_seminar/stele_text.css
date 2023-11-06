@@ -1,0 +1,72 @@
+/* *{
+
+    margin: 0;
+    padding: 0;
+} */
+
+html {
+    /* 1rem=20px */
+    font-size: 20px;
+}
+
+
+.title {
+
+    font-size: 1.8rem;
+}
+
+
+
+@media (max-width:768px) {
+
+
+    .title {
+
+        font-size: 18px;
+    }
+
+
+    .heading {
+
+
+        font-size: 11px;
+    }
+
+    .text {
+
+
+        font-size: 10px;
+    }
+
+
+
+}
+
+
+
+
+
+@media (max-width:425px) {
+
+
+    .title {
+
+        font-size: 10px;
+    }
+
+
+    .heading {
+
+
+        font-size: 7px;
+    }
+
+    .text {
+
+
+        font-size: 5px;
+    }
+
+
+
+}
